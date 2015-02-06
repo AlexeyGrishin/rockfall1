@@ -1,0 +1,13 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "*",
+    "less": "*",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-watch": "*",
+    "gulp-less": "*",
+    "gulp-util": "*"
+  }
+}
