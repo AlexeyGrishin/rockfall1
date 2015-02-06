@@ -1,0 +1,250 @@
+body {
+  background-color: black;
+  background-image: url(/img/darial-gorge-moon-night-1868.jpg);
+}
+main {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 800px;
+  position: relative;
+}
+#level {
+  font-family: "BuxtonSketch", fantasy;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20pt;
+  color: white;
+}
+#over {
+  font-family: "BuxtonSketch", fantasy;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 800px;
+}
+#over > div {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#over > div h2 {
+  font-size: 30pt;
+  text-align: center;
+}
+#over .help-top {
+  color: white;
+  height: 100px;
+  font-size: 18pt;
+  text-align: right;
+  margin-right: 10px;
+}
+#over .help-title {
+  color: white;
+  text-align: center;
+}
+#over .help-controls {
+  color: white;
+}
+#over .help-controls > div {
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+}
+#over .help-controls > div > label {
+  margin-left: 220px;
+  font-size: 20pt;
+}
+#over .help-controls > div > span {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 12pt;
+  position: absolute;
+  right: 210px;
+  border: 1px solid white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+#over .help-controls > div > span.left {
+  right: 260px;
+}
+#over .help-controls > div > span.double {
+  width: 90px;
+}
+#over .help-continue {
+  color: #92d000;
+  margin-top: 40px;
+  display: none;
+}
+#over .help-continue > div {
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+}
+#over .help-continue > div > label {
+  margin-left: 220px;
+  font-size: 20pt;
+}
+#over .help-continue > div > span {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 12pt;
+  position: absolute;
+  right: 210px;
+  border: 1px solid #92d000;
+  color: #92d000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+#over .help-continue > div > span.left {
+  right: 260px;
+}
+#over .help-continue > div > span.double {
+  width: 90px;
+}
+#over .help-start {
+  color: #92d000;
+  margin-top: 40px;
+}
+#over .help-start > div {
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+}
+#over .help-start > div > label {
+  margin-left: 220px;
+  font-size: 20pt;
+}
+#over .help-start > div > span {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 12pt;
+  position: absolute;
+  right: 210px;
+  border: 1px solid #92d000;
+  color: #92d000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+#over .help-start > div > span.left {
+  right: 260px;
+}
+#over .help-start > div > span.double {
+  width: 90px;
+}
+#over .help-gameover {
+  color: #c00000;
+  display: none;
+}
+#over .help-gameover > div {
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+}
+#over .help-gameover > div > label {
+  margin-left: 220px;
+  font-size: 20pt;
+}
+#over .help-gameover > div > span {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 12pt;
+  position: absolute;
+  right: 210px;
+  border: 1px solid #c00000;
+  color: #c00000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+#over .help-gameover > div > span.left {
+  right: 260px;
+}
+#over .help-gameover > div > span.double {
+  width: 90px;
+}
+#over .help-win {
+  color: #92d000;
+  display: none;
+}
+#over .help-levelend {
+  color: #92d000;
+  display: none;
+}
+#over .help-levelend > div {
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  position: relative;
+}
+#over .help-levelend > div > label {
+  margin-left: 220px;
+  font-size: 20pt;
+}
+#over .help-levelend > div > span {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 12pt;
+  position: absolute;
+  right: 210px;
+  border: 1px solid #92d000;
+  color: #92d000;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+#over .help-levelend > div > span.left {
+  right: 260px;
+}
+#over .help-levelend > div > span.double {
+  width: 90px;
+}
+#over.paused .help-continue {
+  display: block;
+}
+#over.paused .help-start {
+  display: none;
+}
+#over.levelend > div {
+  display: none;
+}
+#over.levelend .help-levelend {
+  margin-top: 200px;
+  display: block;
+}
+#over.win > div {
+  display: none;
+}
+#over.win .help-win {
+  margin-top: 200px;
+  display: block;
+}
+#over.gameover > div {
+  display: none;
+}
+#over.gameover .help-gameover {
+  display: block;
+  margin-top: 200px;
+}
+input {
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
